@@ -1,0 +1,35 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\numberline {1}Изучение способов передачи аудиоданных в информационно-телекоммуникационных сетях}{3}{}%
+\contentsline {section}{\numberline {1.1}Телекоммуникационные технологии}{3}{}%
+\contentsline {subsection}{\numberline {1.1.1}Определение и понятие телекоммуникационных \\ технологий}{3}{}%
+\contentsline {subsection}{\numberline {1.1.2}Виды телекоммуникационных технологий}{4}{}%
+\contentsline {subsection}{\numberline {1.1.3}Основные типы информационно-телекоммуникационных сетей}{4}{}%
+\contentsline {subsection}{\numberline {1.1.4}Технические и программные средства \\ телекоммуникационных технологий}{4}{}%
+\contentsline {subsection}{\numberline {1.1.5}Программное обеспечение телекоммуникационных \\ технологий}{5}{}%
+\contentsline {subsection}{\numberline {1.1.6}Основные задачи сетевых телекоммуникационных технологий}{5}{}%
+\contentsline {subsection}{\numberline {1.1.7}Технологии защиты информации в телекоммуникационных сетях}{6}{}%
+\contentsline {subsection}{\numberline {1.1.8}Использование телекоммуникационных технологий}{6}{}%
+\contentsline {section}{\numberline {1.2}Описание способов передачи аудиоданных}{7}{}%
+\contentsline {subsection}{\numberline {1.2.1}Передача аудиоданных по телефонным каналам связи}{7}{}%
+\contentsline {subsubsection}{Описание типов каналов связи}{9}{}%
+\contentsline {subsubsection}{Способы повышения эффективности передачи данных}{11}{}%
+\contentsline {subsection}{\numberline {1.2.2}Передача аудиоданных по радиосвязи}{13}{}%
+\contentsline {subsubsection}{Распространение радиоволн, расстояние и длина волны}{13}{}%
+\contentsline {subsubsection}{Оборудование применяемое для передачи радиоволн}{14}{}%
+\contentsline {subsubsection}{Сотовая связь}{15}{}%
+\contentsline {subsubsection}{Радиорелейная связь}{16}{}%
+\contentsline {subsubsection}{Спутниковая связь}{16}{}%
+\contentsline {subsubsection}{Сферы применения радиосвязи}{16}{}%
+\contentsline {subsubsection}{Алгоритмы кодирования и декодирования, методики защиты информации}{17}{}%
+\contentsline {subsubsection}{Частоты и каналы}{18}{}%
+\contentsline {subsection}{\numberline {1.2.3}Передача аудиоданных через системы спутниковой связи}{19}{}%
+\contentsline {subsubsection}{Спутниковая связь}{19}{}%
+\contentsline {subsubsection}{Преимущества и ограничения систем спутниковой связи}{20}{}%
+\contentsline {subsubsection}{Космический сегмент}{21}{}%
+\contentsline {subsubsection}{Сигнальная часть}{22}{}%
+\contentsline {subsubsection}{Передача речи и данных}{23}{}%
+\contentsline {subsubsection}{Система Aloha}{24}{}%
+\contentsline {subsubsection}{Наземный сегмент}{25}{}%
+\contentsline {subsection}{\numberline {1.2.4}Передача аудиоданных черз интернет}{27}{}%
+\contentsline {subsubsection}{Компьютерная телефония}{27}{}%
+\contentsline {subsubsection}{Варианты использования IP-телефонии}{28}{}%
