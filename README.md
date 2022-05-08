@@ -1,5 +1,6 @@
 # practice
-first year MIREA practice    
+first year MIREA practice   
+Simple audio file codec with elements of encryption using A51/1 algorithm and OGG codec    
 
 
 REQUIRES OGG AND VORBIS LIBRARIES!    
@@ -35,5 +36,7 @@ Fourth argument: output file name
     
     
     
+    
+### Key and initial frame number cannot be specified yet!    
 coding: Roman48RUS and stepav    
 documents: stepav and Roman48RUS    
