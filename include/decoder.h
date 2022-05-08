@@ -1,0 +1,1 @@
+void decompress(char* inputFile, char* outputFile);

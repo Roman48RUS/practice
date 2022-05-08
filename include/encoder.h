@@ -1,0 +1,1 @@
+void compress(char* inputFile, char* outputFile);
