@@ -38,5 +38,5 @@ Fourth argument: output file name
     
     
 ### Key and initial frame number cannot be specified yet!    
-coding: Roman48RUS and stepav    
-documents: stepav and Roman48RUS    
+coding: Roman48RUS and stepavv    
+documents: stepavv and Roman48RUS    
