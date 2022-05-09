@@ -36,8 +36,13 @@ int main(int argc, char **argv)
                 }
             }
         }
-        byte key[8] = {0x12, 0x23, 0x45, 0x67, 0x89, 0xAB, 0xCD, 0xEF};
-        word frame = 0x001;
+        FILE* keyfile = fopen("key", "rb");
+        byte key[8];
+        word frame;
+        fread(key, 1, 8, keyfile);
+        fread(&frame, 1, 4, keyfile);
+        fclose(keyfile);
+
         FILE* in = fopen(filename, "rb");
         FILE* out = fopen(outputFile, "wb");
         fseek(in, 0, SEEK_END);
@@ -77,8 +82,13 @@ int main(int argc, char **argv)
 
         compress(filename, "temp");
 
-        byte key[8] = {0x12, 0x23, 0x45, 0x67, 0x89, 0xAB, 0xCD, 0xEF};
-        word frame = 0x001;
+        FILE* keyfile = fopen("key", "rb");
+        byte key[8];
+        word frame;
+        fread(key, 1, 8, keyfile);
+        fread(&frame, 1, 4, keyfile);
+        fclose(keyfile);
+
 
         byte header[44];
         FILE* in = fopen(filename, "rb");
@@ -137,8 +147,12 @@ int main(int argc, char **argv)
                 }
             }
         }
-        byte key[8] = {0x12, 0x23, 0x45, 0x67, 0x89, 0xAB, 0xCD, 0xEF};
-        word frame = 0x001;
+        FILE* keyfile = fopen("key", "rb");
+        byte key[8];
+        word frame;
+        fread(key, 1, 8, keyfile);
+        fread(&frame, 1, 4, keyfile);
+        fclose(keyfile);
 
         FILE* in = fopen(filename, "rb");
         fseek(in, 0, SEEK_END);
@@ -166,7 +180,35 @@ int main(int argc, char **argv)
         decompress("temp", outputFile);
         remove("temp");
     }
+    if (strcmp(command, "-skf") == 0)
+    {
+        if (argc != 11)
+        {
+            printf("Incorrect arguments number\n");
+            return 1;
+        }
 
+        byte key[8];
+        for (int i = 0; i < 8; i++)
+        {
+            if (sscanf(argv[i + 2], "%02X", &key[i]) == 0)
+            {
+                printf("Incorrect values\n");
+                return 3;
+            }
+        }
+        word frame;
+        if (sscanf(argv[10], "%d", &frame) == 0)
+        {
+            printf("Incorrect frame number");
+            return 3;
+        }
+
+        FILE* keyfile = fopen("key", "wb");
+        fwrite(key, 1, 8, keyfile);
+        fwrite(&frame, 4, 1, keyfile);
+        printf("Key and frame number set.\n");
+    }
 
 
 

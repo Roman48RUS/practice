@@ -203,5 +203,5 @@ void compress(char* inputFile, char* outputFile){
   /* ogg_page and ogg_packet structs always point to storage in
      libvorbis.  They're never freed or manipulated directly */
 
-  fprintf(stderr,"Done.\n");
+  fprintf(stderr,"Encoded.\n");
 }
